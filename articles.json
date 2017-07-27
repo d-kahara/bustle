@@ -1,0 +1,19 @@
+{
+  "articles":
+  [{    
+  "author":"Stefan Etienne",
+  "description":"This past weekend I ditched my electric skateboards and decided to risk my life testing a whole new and evolving category of personal electric vehicles:..",
+  "publishedAt":"2017-07-10T19:46:20Z",
+  "title":"Lithium Cycles’ Super 73 Scout proves the simplest e-bike can be the most fun in city streets",
+  "url":"https://techcrunch.com/2017/07/10/lithium-cycles-super-73-scout-proves-the-simplest-e-bike-can-be-the-most-fun-in-city-streets/",
+  "urlToImage":"https://tctechcrunch2011.files.wordpress.com/2017/07/img_1529.jpg?w=764&h=400&crop=1"
+},{
+
+"author":"Matt Burns",
+"description":"Last summer LeEco announced it intended to purchase the U.S.-based TV maker Vizio for $2 billion. The deal fell through in March amid myriad problems..",
+"publishedAt":"2017-07-11T23:26:11Z",
+"title":"Vizio files $100M lawsuit against LeEco",
+"url":"https://techcrunch.com/2017/07/11/vizio-files-100m-lawsuit-against-leeco/",
+"urlToImage":"https://tctechcrunch2011.files.wordpress.com/2017/05/gettyimages-469752762.jpg?w=764&h=400&crop=1"
+}]
+}

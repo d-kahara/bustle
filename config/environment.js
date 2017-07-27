@@ -5,6 +5,17 @@ module.exports = function(environment) {
     modulePrefix: 'bustle-clone',
     environment: environment,
     rootURL: '/',
+    firebase: {
+      apiKey: "AIzaSyBYdsNAVWDQEhNhTeZOsFnb9iHk2wbwEPI",
+      authDomain: "bustle-clone-322a9.firebaseapp.com",
+      databaseURL: "https://bustle-clone-322a9.firebaseio.com",      
+      projectId: "bustle-clone-322a9",
+      storageBucket: "bustle-clone-322a9.appspot.com",
+      messagingSenderId: "457095214329"
+    },
+    torii: {
+     sessionServiceName: 'session'
+   },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

@@ -7,6 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('protected');
+  this.route('signup');
+  this.route('login');
+  this.route('private', { path: ':user_id' });
+  this.route('hash');
 });
 
 export default Router;

@@ -1,0 +1,16 @@
+<li>
+
+  <h4>Author: {{article.author}}</h4>
+    <h4>Description</h4>
+    {{article.description}}
+  {{#if isImageShowing}}
+    <p><img src={{article.urlToImage}} {{action 'imageHide'}}></p>
+
+  {{else}}
+  <button class="btn btn-info" {{action 'imageShow'}} >show image</button>
+  {{/if}}
+  <button class="btn btn-danger" {{action 'delete' article}} >Delete Article</button>
+
+
+
+</li>

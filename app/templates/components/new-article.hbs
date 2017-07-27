@@ -1,0 +1,31 @@
+{{#if addNewArticle}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">author</label>
+          {{input class="form-control" value=author id="author"}}
+        </div>
+        <div class="form-group ">
+          <label for="description">description</label>
+          {{input class="form-control" value=description id="description"}}
+        </div>
+        <div class="form-group">
+        <label for="publishedAt">publishedAt</label>
+        {{input class="form-control" value=publishedAt id="publishedAt"}}
+      </div>
+
+      <div class="form-group">
+        <label for="title">title</label>
+        {{input  class="form-control"value=title id="title"}}
+      </div>
+
+      <div class="form-group">
+        <label for="url">url To Article</label>
+        {{input class="form-control" value=image id="image"}}
+      </div>
+      <button class="btn btn-info" {{action 'saveRental1'}}>Save</button>
+    </form>
+  </div>
+  {{else}}
+    <button class="btn btn-info" {{action 'rentalFormShow'}}>New Rental</button>
+    {{/if}}
